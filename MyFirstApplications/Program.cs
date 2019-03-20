@@ -17,7 +17,7 @@ namespace MyFirstApplications
             {
                 if (SomeDataFromusers.Length == 0)
                 {
-                    throw new Exception("Name should be blank!");
+                    throw new Exception("Name should not be blank!");
                 }
             }
             catch (Exception ex)
